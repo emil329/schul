@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Schule am Dösner Weg</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#f5f7fa;
+    color:#333;
+}
+
+header{
+    background:#004b87;
+    color:white;
+    text-align:center;
+    padding:30px;
+}
+
+header h1{
+    margin-bottom:10px;
+}
+
+nav{
+    position:sticky;
+    top:0;
+    z-index:1000;
+    background:white;
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    box-shadow:0 2px 10px rgba(0,0,0,.1);
+}
+
+nav a{
+    text-decoration:none;
+    color:#333;
+    padding:18px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+nav a:hover{
+    background:#eef5fc;
+    color:#004b87;
+}
+
+.hero{
+    height:400px;
+    background:linear-gradient(rgba(0,75,135,.7),rgba(0,75,135,.7)),
+    url("https://images.unsplash.com/photo-1509062522246-3755977927d7?w=1600");
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    color:white;
+}
+
+.hero h1{
+    font-size:50px;
+}
+
+.hero p{
+    margin-top:10px;
+    font-size:20px;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+    padding:60px 0;
+}
+
+.container h2{
+    color:#004b87;
+    margin-bottom:20px;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+    margin-top:30px;
+}
+
+.card{
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 5px 20px rgba(0,0,0,.1);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+footer{
+    background:#004b87;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+@media(max-width:700px){
+
+.hero h1{
+font-size:35px;
+}
+
+nav a{
+padding:12px;
+font-size:14px;
+}
+
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>Schule am Dösner Weg</h1>
+<p>Gemeinsam lernen. Zukunft gestalten.</p>
+</header>
+
+<nav>
+<a href="#start">Start</a>
+<a href="#schule">Über uns</a>
+<a href="#konzept">Schulkonzept</a>
+<a href="#team">Team</a>
+<a href="#neubau">Neubau</a>
+<a href="#events">Veranstaltungen</a>
+<a href="#kontakt">Kontakt</a>
+</nav>
+
+<section class="hero" id="start">
+<div>
+<h1>Willkommen</h1>
+<p>Herzlich willkommen an der Schule am Dösner Weg.</p>
+</div>
+</section>
+
+<section class="container" id="schule">
+
+<h2>🏫 Über die Schule</h2>
+
+<p>
+Die Schule am Dösner Weg ist eine moderne Gemeinschaftsschule.
+Unser Ziel ist es, Schülerinnen und Schüler individuell zu fördern
+und sie auf ihre Zukunft vorzubereiten.
+</p>
+
+<div class="cards">
+
+<div class="card">
+<h3>Moderne Bildung</h3>
+<p>Zeitgemäßer Unterricht und digitale Medien.</p>
+</div>
+
+<div class="card">
+<h3>Gemeinschaft</h3>
+<p>Respekt, Verantwortung und Zusammenarbeit.</p>
+</div>
+
+<div class="card">
+<h3>Zukunft</h3>
+<p>Vorbereitung auf Beruf und weiterführende Bildung.</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="container" id="konzept">
+
+<h2>📚 Schulkonzept</h2>
+
+<p>
+Unser Schulkonzept setzt auf gemeinsames Lernen,
+persönliche Entwicklung und moderne Unterrichtsmethoden.
+</p>
+
+<div class="cards">
+
+<div class="card">
+<h3>Individuelle Förderung</h3>
+<p>Jede Schülerin und jeder Schüler wird unterstützt.</p>
+</div>
+
+<div class="card">
+<h3>Digitales Lernen</h3>
+<p>Tablets, Computer und moderne Medien.</p>
+</div>
+
+<div class="card">
+<h3>Projektarbeit</h3>
+<p>Praxisnahe und kreative Lernformen.</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="container" id="team">
+
+<h2>👩‍🏫 Unser Team</h2>
+
+<p>
+Unser engagiertes Kollegium begleitet die Schülerinnen und Schüler
+auf ihrem Bildungsweg.
+</p>
+
+<div class="cards">
+
+<div class="card">
+<h3>Lehrkräfte</h3>
+<p>Kompetent und engagiert.</p>
+</div>
+
+<div class="card">
+<h3>Schulleitung</h3>
+<p>Verantwortung für die Schulgemeinschaft.</p>
+</div>
+
+<div class="card">
+<h3>Schulsozialarbeit</h3>
+<p>Unterstützung und Beratung.</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="container" id="neubau">
+
+<h2>🏗 Neubau</h2>
+
+<p>
+Der Neubau bietet moderne Klassenräume,
+digitale Ausstattung und neue Möglichkeiten für den Unterricht.
+</p>
+
+<div class="cards">
+
+<div class="card">
+<h3>Moderne Räume</h3>
+<p>Helle und freundliche Lernumgebung.</p>
+</div>
+
+<div class="card">
+<h3>Digitale Technik</h3>
+<p>Innovative Ausstattung für den Unterricht.</p>
+</div>
+
+<div class="card">
+<h3>Nachhaltigkeit</h3>
+<p>Umweltfreundliche Bauweise.</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="container" id="events">
+
+<h2>📅 Veranstaltungen</h2>
+
+<p>
+Hier finden Sie aktuelle Termine und Veranstaltungen unserer Schule.
+</p>
+
+<div class="cards">
+
+<div class="card">
+<h3>Schulfeste</h3>
+<p>Gemeinsame Veranstaltungen für alle.</p>
+</div>
+
+<div class="card">
+<h3>Sporttage</h3>
+<p>Bewegung und Teamgeist.</p>
+</div>
+
+<div class="card">
+<h3>Projektwochen</h3>
+<p>Spannende Themen und Aktivitäten.</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="container" id="kontakt">
+
+<h2>📞 Kontakt</h2>
+
+<p>
+Sie erreichen uns zu den Öffnungszeiten des Sekretariats.
+</p>
+
+<br>
+
+<div class="cards">
+
+<div class="card">
+<h3>📍 Adresse</h3>
+<p>Schule am Dösner Weg</p>
+<p>Leipzig</p>
+</div>
+
+<div class="card">
+<h3>📞 Telefon</h3>
+<p>
+<a href="tel:+4934198710500">
+0341 - 987 10 500
+</a>
+</p>
+</div>
+
+<div class="card">
+<h3>📧 E-Mail</h3>
+<p>
+<a href="mailto:info@gesdw.de">
+sekretariat@gesdw.lernsax.de
+</a>
+</p>
+</div>
+
+</div>
+
+</section>
